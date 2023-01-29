@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Animal Book</title>
+    <meta name="description" content="동물에 대해 알아봐요" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-888FD19NQZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-888FD19NQZ");
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>★동물사전★</h1>
+    </header>
+    <main>
+      <div id="grid">
+        <div id="index">
+          <a href="index.html" id="main">메인</a>
+          <ol>
+            <a href="dog.html"><li>강아지</li></a>
+            <a href="cat.html"><li>고양이</li></a>
+            <a href="monkey.html"><li>원숭이</li></a>
+          </ol>
+        </div>
+        <div id="content">
+          <h2>메인화면</h2>
+          <img src="img/banner.png" width="300" />
+          <p>재미있게 배우는 동물사전</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <small> [연락처] abc123@maver.com 동물 지구학 재단, 1994</small><br />
+      <small>Copyright &copy; 1994 동물 지구학 재단</small>
+    </footer>
+  </body>
+</html>
