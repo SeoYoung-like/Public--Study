@@ -1,0 +1,14 @@
+#1 - 01 - 완료
+(한글 단어)(키보드 TAB)(영어단어)
+
+
+반도체	semiconductor
+진공관	Vacuum tubes
+음극	cathode
+양극	anode
+트랜지스터	Transistor 
+실리콘(규소)	Slicon
+직접회로	IC ( Integrated Circuit )
+IP	InstructurePoint
+프로그램 내장 방식	stored-program computer
+
